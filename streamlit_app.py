@@ -18,7 +18,7 @@ import requests
 
 st.set_page_config(
     page_title="E2E BY RAJVEER SINGH",
-    page_icon="",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -948,7 +948,6 @@ def stop_automation(user_id):
 def admin_panel():
     st.markdown("""
     <div class="main-header">
-        <img src="https://ibb.co/2Y0kPPtN.jpg" class="Couple-logo">
         <h1> ADMIN PANEL </h1>
         <p>KEY APPROVAL MANAGEMENT</p>
     </div>
@@ -993,7 +992,6 @@ def admin_panel():
 def approval_request_page(user_key, username):
     st.markdown("""
     <div class="main-header">
-        <img src="https://ibb.co/2Y0kPPtN.jpg" class="Couple-logo">
         <h1> PREMIUM KEY APPROVAL REQUIRED </h1>
         <p>ONE MONTH 500 RS PAID</p>
     </div>
@@ -1051,7 +1049,7 @@ def approval_request_page(user_key, username):
         """, unsafe_allow_html=True)
        
         st.markdown("###  Message Preview:")
-        st.code(f""" HELLO RAJVEER SIR PLEASE 
+        st.code(f""" HELLO RAJVEER SIR PLEASE 
 My name is {username}
 Please approve my key:
  {user_key}""")
@@ -1102,8 +1100,7 @@ Please approve my key:
 def login_page():
     st.markdown("""
     <div class="main-header">
-        <img src="https://ibb.co/2Y0kPPtN.jpg" class="couple-logo">
-        <h1>RAJVEER SINGH OFFLINE E2E </h1>
+        <h1>RAJVEER SINGH OFFLINE E2E </h1>
         <p>səvən bıllıon smılə's ın ʈhıs world buʈ ɣour's ıs mɣ fαvourıʈəs___</p>
     </div>
     """, unsafe_allow_html=True)
@@ -1166,7 +1163,7 @@ def login_page():
                 st.warning(" Please fill all fields")
 
 def main_app():
-    st.markdown('<div class="main-header"><img src="https://ibb.co/2Y0kPPtN.jpg" class="couple-logo"><h1> RAJVEER SINGH E2E OFFLINE</h1><p>Dreamed about you all night... now I just want to live that dream today. ✨❤️</p></div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header"><h1> RAJVEER SINGH E2E OFFLINE</h1><p> Dreamed about you all night, now I just want to live that dream today✨❤️</p></div>', unsafe_allow_html=True)
    
     if not st.session_state.auto_start_checked and st.session_state.user_id:
         st.session_state.auto_start_checked = True
@@ -1295,4 +1292,4 @@ elif not st.session_state.key_approved:
 else:
     main_app()
 
-st.markdown('<div class="footer">Made with  by Rajveer singh | � 2025</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with  by Rajveer singh | � 2025</div>', unsafe_allow_html=True)
