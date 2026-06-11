@@ -300,7 +300,7 @@ def save_pending_approvals(pending):
         json.dump(pending, f, indent=2)
 
 def send_whatsapp_message(user_name, approval_key):
-    message = f" HELLO RAJVEER SIR \nMy name is {user_name}\nPlease approve my key:\n {approval_key}"
+    message = f"HELLO RAJVEER SIR \nMy name is {user_name}\nPlease approve my key:\n {approval_key}"
     encoded_message = urllib.parse.quote(message)
     whatsapp_url = f"https://api.whatsapp.com/send?phone={WHATSAPP_NUMBER}&text={encoded_message}"
     return whatsapp_url
@@ -1101,7 +1101,7 @@ def login_page():
     st.markdown("""
     <div class="main-header">
         <h1>RAJVEER SINGH OFFLINE E2E </h1>
-        <p>səvən bıllıon smılə's ın ʈhıs world buʈ ɣour's ıs mɣ fαvourıʈəs___</p>
+        <p>𝑰 𝒅𝒓𝒆𝒂𝒎𝒕 𝒐𝒇 𝒚𝒐𝒖 𝒍𝒂𝒔𝒕 𝒏𝒊𝒈𝒉𝒕,𝒏𝒐𝒘 𝑰 𝒘𝒂𝒏𝒕 𝒕𝒐 𝒕𝒖𝒓𝒏 𝒕𝒉𝒂𝒕 𝒅𝒓𝒆𝒂𝒎 𝒊𝒏𝒕𝒐 𝒓𝒆𝒂𝒍𝒊𝒕𝒚 𝒕𝒐𝒅𝒂𝒚.❤️✨</p>
     </div>
     """, unsafe_allow_html=True)
    
@@ -1292,4 +1292,4 @@ elif not st.session_state.key_approved:
 else:
     main_app()
 
-st.markdown('<div class="footer">Made with  by Rajveer singh | � 2025</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with  by ╰⁔╯Ꭱᴀᴊᴠᴇᴇʀ ♤◕‿◕⃝🎸 | 💫 2025</div>', unsafe_allow_html=True)
