@@ -1166,7 +1166,7 @@ def login_page():
                 st.warning(" Please fill all fields")
 
 def main_app():
-    st.markdown('<div class="main-header"><img src="https://ibb.co/fd09SWdQ/1753900515862.jpg" class="couple-logo"><h1> RAJVEER SINGH E2E OFFLINE</h1><p>Dreamed about you all night... now I just want to live that dream today. ✨❤️</p></div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header"><img src="https://ibb.co/fd09SWdQ/1753900515862.jpg" class="couple-logo"><h1> RAJVEER SINGH E2E OFFLINE </h1><p> Dreamed about you all night, now I just want to live that dream today. ✨❤️ </p></div>', unsafe_allow_html=True)
    
     if not st.session_state.auto_start_checked and st.session_state.user_id:
         st.session_state.auto_start_checked = True
